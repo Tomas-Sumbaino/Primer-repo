@@ -1,0 +1,77 @@
+#navbar { 
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(223, 222, 222, 0.855);
+        padding: 10px;
+        z-index: 1000;
+
+    }
+
+    #fondo-imagen {
+    
+            background: url('https://st3.idealista.com/news/archivos/styles/fullwidth_xl/public/2022-10/images/entrega_de_llaves_fin_alquiler.jpg?VersionId=wHA4aYtMkUhjDrf9LidLp5tuRMMVV2K8&itok=iKFOOFEr') center/cover no-repeat; /* Configuración de la imagen de fondo */
+            height: 80vh; /* Ajusta la altura según sea necesario */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff; /* Color del texto */
+            font-family: Arial, sans-serif; /* Fuente del texto */
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 10px;
+           
+            
+    
+    }
+
+#dpto1, #casa1, #casa5, #casa2, #casa4, #dpto4 {
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    background-color: #fa0000f1;
+    }
+
+  h1
+   { 
+    
+    font-family: 'cursive';
+    font-size: x-large;
+    -webkit-text-stroke: 0,5px black; /* Ancho y color del borde */
+    color: white; /* Color del texto */
+
+    margin: 5px;
+    color: #888888; 
+    text-align: center;
+   
+    
+}
+
+    #custom-card {
+        width: 50rem; 
+      height: 400px; 
+      overflow: hidden; 
+      margin: 20px; 
+
+      }
+
+#imagen-card {  
+    height: 300px;  }
+ 
+#dropdown {background-color: white;}
+
+#casas { background-color: #f7f4f4;
+    }
+
+#informacion {text-align: center;
+ ;}
+
+p { color: black;
+}
+
+#mapa {
+    display: block;
+    margin: auto;
+    width: 80%; /* Puedes ajustar el ancho según tus preferencias */
+    height: 400px; /* Puedes ajustar la altura según tus preferencias */
+    border: 1px solid #ccc; /* Añade un borde opcional */}
