@@ -53,3 +53,6 @@ h1 {
     background-color: rgba(223, 222, 222, 0.855);
     padding: 10px;
     z-index: 1000;}
+
+    #footer { text-align: center;
+    color: bisque;}
