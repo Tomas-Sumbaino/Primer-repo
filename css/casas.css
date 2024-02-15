@@ -1,47 +1,58 @@
-#navbar  {
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(223, 222, 222, 0.855);
-    padding: 10px;
-    z-index: 1000;}
-
-
-  #footercasas { text-align: center;
-   
-    font-family: 'cursive';
-    font-size: x-large;
-    -webkit-text-stroke: 0,5px black; /* Ancho y color del borde */
-    color: white; /* Color del texto */
-
-    margin: 5px;
-    color: #888888; 
-    text-align: center;
+#navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(223, 222, 222, 0.855);
+  padding: 10px;
+  z-index: 1000;
 }
 
-#h2casas
-    
-{ 
-    
-    font-family: 'cursive';
-    font-size: xx-large;
-    -webkit-text-stroke: 0,5px black; /* Ancho y color del borde */
-    color: white; /* Color del texto */
+#footercasas {
+  text-align: center;
+  font-family: 'cursive';
+  font-size: x-large;
+  -webkit-text-stroke: 0.5px black; /* Ancho y color del borde */
+  color: white; /* Color del texto */
+  margin: 5px;
+  color: #888888;
+  text-align: center;
+}
 
-    margin: 5px;
-    color: #000000; 
-    text-align: center;
-   
-    
+#h2casas {
+  font-family: 'cursive';
+  font-size: xx-large;
+  -webkit-text-stroke: 0.5px black; /* Ancho y color del borde */
+  color: white; /* Color del texto */
+  margin: 5px;
+  color: #000000;
+  text-align: center;
 }
 
 #p2casas {
-font-family: 'cursive';
-font-size: x-large;
--webkit-text-stroke: 0,5px black; /* Ancho y color del borde */
-color: white; /* Color del texto */
+  font-family: 'cursive';
+  font-size: x-large;
+  -webkit-text-stroke: 0.5px black; /* Ancho y color del borde */
+  color: white; /* Color del texto */
+  margin: 5px;
+  color: #020000;
+  text-align: center;
+}
 
-margin: 5px;
-color: #020000; 
-text-align: center;
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  #navbar {
+      padding: 5px; /* Reducir el espacio de relleno en pantallas más pequeñas */
+  }
+
+  #footercasas {
+      font-size: large; /* Tamaño de fuente más pequeño en pantallas más pequeñas */
+  }
+
+  #h2casas {
+      font-size: large; /* Tamaño de fuente más pequeño en pantallas más pequeñas */
+  }
+
+  #p2casas {
+      font-size: medium; /* Tamaño de fuente más pequeño en pantallas más pequeñas */
+  }
 }

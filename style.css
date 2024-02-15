@@ -69,9 +69,25 @@
 p { color: black;
 }
 
-#mapa {
-    display: block;
-    margin: auto;
-    width: 80%; /* Puedes ajustar el ancho según tus preferencias */
-    height: 400px; /* Puedes ajustar la altura según tus preferencias */
-    border: 1px solid #ccc; /* Añade un borde opcional */}
+
+#MAPA {
+    width: 80%; 
+    height: 400px; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+@media (max-width: 768px) {
+    #MAPA {
+        width: 100%; 
+        height: 300px; 
+        #fondo-imagen {
+            padding: 20px;
+        }
+
+        #casas {
+            padding: 10px;
+        }
+    }}
+
+  
